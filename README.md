@@ -15,8 +15,12 @@ When completing the tasks I took notes of what parts were most difficult for me 
 Resources:
 
 https://blog.openreplay.com/building-a-custom-fetch-hook-in-react/
+
 https://dev.to/keyurparalkar/creating-custom-hook-for-fetching-data-in-react-3mo3
+
 https://dev.to/shaedrizwan/building-custom-hooks-in-react-to-fetch-data-4ig6
+
 https://dev.to/rasaf_ibrahim/a-guide-to-react-custom-hooks-2b4h
+
 https://dev.to/collegewap/react-fetch-data-from-api-and-display-in-a-table-2mb3
 
