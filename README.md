@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+The highlight of the project for me was the API Data as I found it to work the most out of all my tasks. I used the code I did for the previous project as a rough guideline and also decided to create a custom hook. I was working through the advanced react course on codecademy and thought using a custom hook would be a good idea to test my new knowledge.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+From the module I learnt that custom hooks are beneficial because they:
+Make code more readable by hiding complex hook logic
+Can help reuse stateful logic between multiple components
 
-## Available Scripts
+For this project, using a custom hook was beneficial because it simplified the component logic, making it cleaner and easier to understand. It also helped by keeping the loading states and error handling in one place.
 
-In the project directory, you can run:
+To create the custom hook, I used resources including Codecademy, Dev Community, and a site called Open Replay. I used examples from these resources to write my code and then used ChatGPT to help me with anything I was missing. I also asked for guidelines on how to write the code rather than a straight answer so I could figure it out on my own. 
+Some issues included runtime errors with the API because when I initially started the task, I  fetched the data directly in a functional component. By switching to a custom hook, I was able to isolate the data fetching logic, making it simpler and more reliable. This change helped reduce errors and made the code easier to manage.
+I had some trouble remembering syntax for certain things and had to ask for guidance here and there. 
+I used resources effectively to complete my tasks, and I also found a good way to utilise ChatGPT without it giving away the code completely by asking for guidelines or syntax structure when I found some parts a bit difficult. 
+When completing the tasks I took notes of what parts were most difficult for me to do so I can continue to work on them and improve them post-program by practising and creating my own projects.
 
-### `npm start`
+Resources:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://blog.openreplay.com/building-a-custom-fetch-hook-in-react/
+https://dev.to/keyurparalkar/creating-custom-hook-for-fetching-data-in-react-3mo3
+https://dev.to/shaedrizwan/building-custom-hooks-in-react-to-fetch-data-4ig6
+https://dev.to/rasaf_ibrahim/a-guide-to-react-custom-hooks-2b4h
+https://dev.to/collegewap/react-fetch-data-from-api-and-display-in-a-table-2mb3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
