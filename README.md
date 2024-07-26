@@ -1,8 +1,8 @@
 The highlight of the project for me was the API Data as I found it to work the most out of all my tasks. I used the code I did for the previous project as a rough guideline and also decided to create a custom hook. I was working through the advanced react course on codecademy and thought using a custom hook would be a good idea to test my new knowledge.
 
 From the module I learnt that custom hooks are beneficial because they:
-Make code more readable by hiding complex hook logic
-Can help reuse stateful logic between multiple components
+-Make code more readable by hiding complex hook logic
+-Can help reuse stateful logic between multiple components
 
 For this project, using a custom hook was beneficial because it simplified the component logic, making it cleaner and easier to understand. It also helped by keeping the loading states and error handling in one place.
 
